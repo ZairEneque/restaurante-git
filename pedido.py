@@ -1,6 +1,8 @@
 def calcular_total(subtotal):
+
     descuento_cliente = subtotal * 0.10
-    total = subtotal - descuento_cliente
+    tarifa_servicio = subtotal * 0.08
+    total = subtotal - descuento_cliente + tarifa_servicio
     return total
 
 subtotal = 50.00
